@@ -1,0 +1,20 @@
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6f9}
+.layout{display:flex}
+.sidebar{width:240px;background:#111827;color:#fff;min-height:100vh;padding:20px;box-sizing:border-box}
+.sidebar h2{margin:0 0 20px}
+.sidebar a{display:block;color:#cbd5e1;text-decoration:none;margin-bottom:10px}
+.sidebar a:hover{color:#fff}
+.content{flex:1;padding:20px;overflow:auto}
+.card{background:#fff;padding:15px;border-radius:8px;margin-bottom:20px}
+.stats{display:flex;gap:20px;flex-wrap:wrap}
+.stat{background:#fff;border-radius:8px;padding:16px;min-width:180px}
+table{width:100%;border-collapse:collapse;background:#fff}
+th,td{padding:10px;border-bottom:1px solid #e5e7eb;vertical-align:top}
+th{background:#f3f4f6;text-align:left}
+.badge{padding:4px 8px;border-radius:999px;font-size:12px}
+.pending{background:#f59e0b;color:#fff}
+.verified{background:#16a34a;color:#fff}
+.btn{padding:6px 10px;text-decoration:none;border-radius:6px;font-size:12px;border:none;cursor:pointer}
+.btn-verify{background:#16a34a;color:#fff}
+.btn-reject{background:#dc2626;color:#fff}
+.btn-warning{background:#d97706;color:#fff}
